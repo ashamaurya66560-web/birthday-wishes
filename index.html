@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#17112f">
+    <meta name="description" content="The Little Champ's Day — A special birthday experience for Shivansh.">
+
+    <title>The Little Champ's Day 🎂</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         GLOBAL EFFECT LAYERS
+         ===================================================== -->
+
+    <div id="sparkle-layer" aria-hidden="true"></div>
+    <div id="confetti-layer" aria-hidden="true"></div>
+    <div id="fireworks-layer" aria-hidden="true"></div>
+
+    <!-- =====================================================
+         SOUND CONTROL
+         ===================================================== -->
+
+    <button
+        id="sound-toggle"
+        class="sound-toggle glass-button"
+        type="button"
+        aria-label="Toggle sound"
+        aria-pressed="true">
+        🔊
+    </button>
+
+
+    <!-- =====================================================
+         FLOATING NAVIGATION
+         ===================================================== -->
+
+    <div class="floating-nav">
+
+        <button
+            id="nav-toggle"
+            class="nav-main glass-button"
+            type="button"
+            aria-label="Open navigation">
+            ✨
+        </button>
+
+        <div id="nav-menu" class="nav-menu">
+
+            <button class="nav-item" data-target="message">
+                💌 <span>Message</span>
+            </button>
+
+            <button class="nav-item" data-target="memories">
+                📸 <span>Memories</span>
+            </button>
+
+            <button class="nav-item" data-target="surprise">
+                🎁 <span>Surprise</span>
+            </button>
+
+            <button class="nav-item" data-target="finale">
+                🎂 <span>Finale</span>
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- =====================================================
+         MAIN WEBSITE
+         ===================================================== -->
+
+    <main id="birthday-experience">
+
+
+        <!-- =================================================
+             01 — OPENING
+             ================================================= -->
+
+        <section
+            id="opening"
+            class="screen-section opening-section">
+
+            <div class="background-glow glow-one"></div>
+            <div class="background-glow glow-two"></div>
+
+            <div class="stars-layer" aria-hidden="true">
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+                <span>✦</span>
+                <span>✧</span>
+            </div>
+
+            <div class="opening-content">
+
+                <p class="eyebrow">
+                    Something Special Is Waiting...
+                </p>
+
+                <div
+                    id="opening-gift"
+                    class="opening-gift"
+                    role="button"
+                    tabindex="0"
+                    aria-label="Open birthday gift">
+
+                    <div class="gift-glow"></div>
+
+                    <div class="gift-box">
+
+                        <div class="gift-lid">
+                            <span class="gift-ribbon"></span>
+                        </div>
+
+                        <div class="gift-body">
+                            <span class="gift-ribbon vertical"></span>
+                            <span class="gift-ribbon horizontal"></span>
+                        </div>
+
+                        <div class="gift-bow">
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                    </div>
+
+                    <div class="gift-sparkle">✦</div>
+                </div>
+
+                <p class="for-text">
+                    For <strong>Shivansh</strong> ❤️
+                </p>
+
+                <button
+                    id="open-surprise"
+                    class="glass-button primary-button"
+                    type="button">
+                    OPEN THE SURPRISE 🎁
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- =================================================
+             02 — BIRTHDAY REVEAL
+             ================================================= -->
+
+        <section
+            id="reveal"
+            class="screen-section reveal-section">
+
+            <div class="reveal-glow"></div>
+
+            <div class="cake-reveal" aria-hidden="true">
+                🎂
+            </div>
+
+            <p class="small-reveal-text">
+                It's Your Special Day!
+            </p>
+
+            <h1 class="birthday-title">
+                <span>HAPPY BIRTHDAY</span>
+                <strong>SHIVANSH</strong>
+            </h1>
+
+            <p class="birthday-date">
+                7 SEPTEMBER ✨
+            </p>
+
+            <p class="reveal-line">
+                Aaj ka din sirf tumhare naam! ❤️
+            </p>
+
+            <button
+                class="scroll-button glass-button"
+                data-scroll-to="message"
+                type="button">
+                LET'S GO ✨
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             03 — MAIN BIRTHDAY MESSAGE
+             ================================================= -->
+
+        <section
+            id="message"
+            class="screen-section light-section message-section">
+
+            <div class="section-decoration top-left">✦</div>
+            <div class="section-decoration top-right">✧</div>
+
+            <div class="section-heading">
+                <span class="section-icon">💌</span>
+
+                <p class="section-kicker">
+                    Just For You
+                </p>
+
+                <h2>
+                    Ek Chhota Sa Message
+                </h2>
+            </div>
+
+
+            <!-- Main message card -->
+
+            <article class="white-card birthday-message-card">
+
+                <div class="card-accent"></div>
+
+                <h3>
+                    Dear Shivansh ❤️
+                </h3>
+
+                <p>
+                    Aaj hamare <strong>Little Champ 🏆</strong> ka
+                    special day hai! 🎂
+                </p>
+
+                <p>
+                    Tumhari cute si smile, tumhari masti aur
+                    tumhari shararatein hamesha aise hi bani rahein. 😄
+                </p>
+
+                <p>
+                    Khoob khelo, khoob haso, naye-naye sapne dekho
+                    aur hamesha khush raho. 🚀✨
+                </p>
+
+                <p>
+                    Bhagwan tumhe bahut saari khushiyan aur
+                    pyaar de. ❤️
+                </p>
+
+                <div class="message-ending">
+                    <strong>Happy Birthday, Shivansh! 🎉</strong>
+                    <span>Keep smiling, Little Champ! 👑</span>
+                </div>
+
+            </article>
+
+
+            <!-- Family wish -->
+
+            <article class="white-card family-card">
+
+                <div class="card-mini-icon">
+                    ❤️
+                </div>
+
+                <h3>
+                    Mummy, Papa &amp; Bhai ki taraf se
+                </h3>
+
+                <p>
+                    Hamare pyaare Shivansh ko birthday ki
+                    bahut saari wishes! 🎂
+                </p>
+
+                <p>
+                    Hamesha haste raho, khush raho aur apni
+                    cute si smile se sabko khush karte raho. ✨
+                </p>
+
+                <p>
+                    Bhagwan tumhe hamesha khush rakhe. ❤️
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- =================================================
+             04 — MEMORY JOURNEY
+             ================================================= -->
+
+        <section
+            id="memories"
+            class="screen-section memories-section">
+
+            <div class="memory-background-glow"></div>
+
+            <div class="section-heading">
+
+                <span class="section-icon">
+                    📸
+                </span>
+
+                <p class="section-kicker">
+                    Little Moments
+                </p>
+
+                <h2>
+                    Shivansh Ki Chhoti Si
+                    <br>
+                    Memory Journey
+                </h2>
+
+                <p class="section-description">
+                    Swipe karke memories dekho ✨
+                </p>
+
+            </div>
+
+
+            <!--
+                =================================================
+                FIXED PHOTO AREA
+
+                IMPORTANT:
+                Photos baad mein yahin add hongi.
+
+                Required filenames:
+                images/shivansh1.jpg
+                images/shivansh2.jpg
+                images/shivansh3.jpg
+                images/shivansh4.jpg
+                =================================================
+            -->
+
+            <div
+                id="memory-slider"
+                class="memory-slider"
+                tabindex="0"
+                aria-label="Shivansh memory gallery">
+
+                <div class="memory-track">
+
+
+                    <!-- PHOTO 01 -->
+
+                    <article
+                        class="memory-slide active"
+                        data-index="0">
+
+                        <div class="photo-frame">
+
+                            <img
+                                src="images/shivansh1.jpg"
+                                alt="Shivansh memory 1"
+                                loading="lazy"
+                                draggable="false"
+                                onerror="this.classList.add('photo-missing')">
+
+                            <div class="photo-placeholder">
+                                📸
+                                <span>Memory 01</span>
+                            </div>
+
+                        </div>
+
+                        <p class="memory-caption">
+                            Ek pyari si memory ❤️
+                        </p>
+
+                    </article>
+
+
+                    <!-- PHOTO 02 -->
+
+                    <article
+                        class="memory-slide"
+                        data-index="1">
+
+                        <div class="photo-frame">
+
+                            <img
+                                src="images/shivansh2.jpg"
+                                alt="Shivansh memory 2"
+                                loading="lazy"
+                                draggable="false"
+                                onerror="this.classList.add('photo-missing')">
+
+                            <div class="photo-placeholder">
+                                📸
+                                <span>Memory 02</span>
+                            </div>
+
+                        </div>
+
+                        <p class="memory-caption">
+                            Ek aur special moment ✨
+                        </p>
+
+                    </article>
+
+
+                    <!-- PHOTO 03 -->
+
+                    <article
+                        class="memory-slide"
+                        data-index="2">
+
+                        <div class="photo-frame">
+
+                            <img
+                                src="images/shivansh3.jpg"
+                                alt="Shivansh memory 3"
+                                loading="lazy"
+                                draggable="false"
+                                onerror="this.classList.add('photo-missing')">
+
+                            <div class="photo-placeholder">
+                                📸
+                                <span>Memory 03</span>
+                            </div>
+
+                        </div>
+
+                        <p class="memory-caption">
+                            Smile wali memory 😊
+                        </p>
+
+                    </article>
+
+
+                    <!-- PHOTO 04 -->
+
+                    <article
+                        class="memory-slide"
+                        data-index="3">
+
+                        <div class="photo-frame">
+
+                            <img
+                                src="images/shivansh4.jpg"
+                                alt="Shivansh memory 4"
+                                loading="lazy"
+                                draggable="false"
+                                onerror="this.classList.add('photo-missing')">
+
+                            <div class="photo-placeholder">
+                                📸
+                                <span>Memory 04</span>
+                            </div>
+
+                        </div>
+
+                        <p class="memory-caption">
+                            Aur ye memory bhi special hai ❤️
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <!-- Memory controls -->
+
+            <div class="memory-controls">
+
+                <span
+                    id="memory-counter"
+                    class="memory-counter">
+                    01 / 04
+                </span>
+
+                <div
+                    id="memory-dots"
+                    class="memory-dots"
+                    aria-hidden="true">
+
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                </div>
+
+            </div>
+
+
+            <p class="memory-ending">
+                Aur ye toh bas shuruaat hai... ❤️✨
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             05 — MAIN SURPRISE
+             ================================================= -->
+
+        <section
+            id="surprise"
+            class="screen-section surprise-section">
+
+            <div class="surprise-glow glow-purple"></div>
+            <div class="surprise-glow glow-cyan"></div>
+
+            <div class="section-heading dark-heading">
+
+                <span class="section-icon">
+                    🎁
+                </span>
+
+                <p class="section-kicker">
+                    Wait...
+                </p>
+
+                <h2>
+                    Ek Surprise Aur Hai 👀
+                </h2>
+
+            </div>
+
+
+            <!-- Interactive surprise gift -->
+
+            <div
+                id="surprise-gift"
+                class="surprise-gift"
+                role="button"
+                tabindex="0"
+                aria-label="Open surprise gift">
+
+                <div class="surprise-gift-glow"></div>
+
+                <div class="surprise-box">
+
+                    <div class="surprise-lid"></div>
+
+                    <div class="surprise-body">
+                        <span></span>
+                    </div>
+
+                    <div class="surprise-bow">
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                </div>
+
+                <div class="tap-hint">
+                    TAP ME ✨
+                </div>
+
+            </div>
+
+
+            <!-- Surprise reveal -->
+
+            <article
+                id="surprise-card"
+                class="surprise-card">
+
+                <div class="surprise-card-icon">
+                    🎉
+                </div>
+
+                <h3>
+                    SURPRISE!
+                </h3>
+
+                <p>
+                    Shivansh, ye chhota sa birthday corner
+                    specially tumhare liye banaya gaya hai. ❤️
+                </p>
+
+                <p class="champ-line">
+                    Because you're our
+                    <strong>Little Champ! 👑</strong>
+                </p>
+
+                <button
+                    id="one-more-surprise"
+                    class="glass-button primary-button"
+                    type="button">
+                    ONE MORE SURPRISE 👀
+                </button>
+
+            </article>
+
+        </section>
+
+
+        <!-- =================================================
+             06 — SECOND MEMORY MOMENT
+             ================================================= -->
+
+        <section
+            id="more-memories"
+            class="screen-section cinematic-section">
+
+            <div class="cinematic-overlay"></div>
+
+            <div class="cinematic-content">
+
+                <p class="cinematic-kicker">
+                    Ready for some memories? ✨
+                </p>
+
+                <div
+                    id="cinematic-photo"
+                    class="cinematic-photo">
+
+                    <!-- Same fixed photo seats reused -->
+                    <img
+                        id="cinematic-image"
+                        src="images/shivansh1.jpg"
+                        alt="Shivansh memory">
+
+                    <div
+                        id="cinematic-placeholder"
+                        class="cinematic-placeholder">
+                        📸
+                    </div>
+
+                </div>
+
+                <p
+                    id="cinematic-caption"
+                    class="cinematic-caption">
+                    A special little moment ❤️
+                </p>
+
+                <div
+                    id="cinematic-progress"
+                    class="cinematic-progress">
+                    01 / 04
+                </div>
+
+                <p class="final-memory-line">
+                    Chahe tum kitne bhi bade ho jao...<br>
+                    apni ye cute si smile kabhi mat khona. ❤️
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             07 — MAKE A WISH
+             ================================================= -->
+
+        <section
+            id="finale"
+            class="screen-section finale-section">
+
+            <div class="finale-stars" aria-hidden="true">
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+            </div>
+
+            <div class="finale-content">
+
+                <p class="wish-kicker">
+                    One Last Little Moment
+                </p>
+
+                <div
+                    id="final-cake"
+                    class="final-cake"
+                    aria-label="Birthday cake">
+
+                    <div class="candle candle-one">
+                        <span class="flame"></span>
+                    </div>
+
+                    <div class="candle candle-two">
+                        <span class="flame"></span>
+                    </div>
+
+                    <div class="candle candle-three">
+                        <span class="flame"></span>
+                    </div>
+
+                    <div class="cake-top"></div>
+                    <div class="cake-body"></div>
+                    <div class="cake-base"></div>
+
+                </div>
+
+                <h2>
+                    Shivansh,
+                    <br>
+                    <span>Make A Wish... ✨</span>
+                </h2>
+
+                <button
+                    id="make-wish"
+                    class="glass-button wish-button"
+                    type="button">
+                    MAKE A WISH 🕯️
+                </button>
+
+
+                <!-- Final message -->
+
+                <div
+                    id="final-message"
+                    class="final-message">
+
+                    <p class="final-small">
+                        ✨ Your wish is on its way... ✨
+                    </p>
+
+                    <h1>
+                        HAPPY BIRTHDAY
+                        <span>SHIVANSH ❤️</span>
+                    </h1>
+
+                    <p class="final-date">
+                        7 SEPTEMBER 🎂
+                    </p>
+
+                    <p class="final-line">
+                        Keep smiling, Little Champ! 👑✨
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FOOTER
+             ================================================= -->
+
+        <footer class="site-footer">
+
+            <div class="footer-line"></div>
+
+            <p>
+                Created with <span>❤️</span> by Shubham
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script src="brain.js"></script>
+
+</body>
+</html>
